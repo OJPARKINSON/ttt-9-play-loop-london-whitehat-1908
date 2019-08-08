@@ -31,8 +31,14 @@ def turn(board)
     move(board, index)
     display_board(board)
   else
-    turn(board)
+    
   end
 end
 
 # Define your play method below
+def play(board)
+  x = 9
+  while x >= 1 do
+    turn(board)
+  end
+end
